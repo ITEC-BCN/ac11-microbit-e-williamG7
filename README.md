@@ -18,6 +18,6 @@ Este proyecto implementa dos funciones principales en un mismo Micro:bit:
 
 ---
 
-## **Captura de los bloques**
+## **Captura**
 
-![Bloques Micro:bit](bloques_microbit.png)
+![Bloques Micro:bit](microBit.png)
