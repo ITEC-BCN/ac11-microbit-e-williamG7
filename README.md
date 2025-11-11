@@ -1,24 +1,23 @@
+# Proyecto Micro:bit — Gráfico de temperatura y gota móvil
 
-> Obre aquesta pàgina a [https://raimonizard.github.io/microbit-template-repo-python/](https://raimonizard.github.io/microbit-template-repo-python/)
+## Descripción
 
-## Utilitza-ho com a extensió
+Este proyecto implementa dos funciones principales en un mismo Micro:bit:
 
-Aquest dipòsit es pot afegir com una **extensió** a MakeCode.
+1. **Gráfico de barras de temperatura**  
+   - Muestra un gráfico de barras en la matriz de LEDs que representa la temperatura actual.  
+   - La escala máxima está fijada en 50°C.  
+   - La función se ejecuta continuamente.
 
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a **Projecte nou**
-* fes clic a **Extensions** sota el menú de la roda dentada
-* cercar **https://github.com/raimonizard/microbit-template-repo-python** i importar
+2. **Gota móvil**  
+   - Una gota representada por un único LED se mueve por la matriz según la inclinación de la Micro:bit.  
+   - La lectura del acelerómetro determina el movimiento en los ejes X e Y.  
+   - La función se ejecuta continuamente junto con el gráfico de temperatura, por lo que ambas se pueden ver simultáneamente.
 
-## Edita aquest projecte
+> En el simulador de MakeCode, puedes mover el ratón sobre la Micro:bit virtual para simular la inclinación y ver cómo se mueve la gota.
 
-Per editar aquest repositori a MakeCode.
+---
 
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a ** Importa** i després a ** Importa URL**
-* enganxa **https://github.com/raimonizard/microbit-template-repo-python** i clica importar
+## **Captura de los bloques**
 
-#### Metadades (utilitzades per a la cerca, renderització)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+![Bloques Micro:bit](bloques_microbit.png)
